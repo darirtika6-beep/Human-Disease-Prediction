@@ -8,8 +8,8 @@ from flask import Flask, render_template, request
 # 1. Load datasets
 # -----------------------------
 
-train_data = pd.read_csv("data/Training.csv")
-test_data = pd.read_csv("data/Testing.csv")
+train_data = pd.read_csv("Training.csv")
+test_data = pd.read_csv("Testing.csv")
 
 print("Training dataset loaded successfully!")
 print("Training shape:", train_data.shape)
